@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="Weather App", page_icon="☀️")
+st.set_page_config(page_title="Weather App", page_icon="☀️",layout = "wide")
 
 WMO_CODES = {
     0: "Clear Sky",
